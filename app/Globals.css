@@ -1,9 +1,11 @@
+/* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* GLOBAL STYLES */
 body {
   background: #0b0b0b;
   color: #f5f5f5;
@@ -28,4 +30,37 @@ h2 {
 
 p {
   color: #cfcfcf;
+}
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 12px 20px;
+  border: 1px solid #fff;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: white;
+  color: black;
+}
+
+/* GRID / CARDS */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card p {
+  margin-top: 10px;
+  text-align: center;
 }
