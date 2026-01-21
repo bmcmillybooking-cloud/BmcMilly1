@@ -1,13 +1,4 @@
-export const metadata = {
-  title: "BMC Milly",
-  description: "Official BMC Milly site",
-};
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>{children}</body>
